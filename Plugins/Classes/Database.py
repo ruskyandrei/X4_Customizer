@@ -102,8 +102,6 @@ class Database:
         #                    connection.Set_Macro(macro)
         return
 
-                            
-
     def Load_File(self, game_file):
         '''
         Loads a game file into this database, generating an xml_root copy

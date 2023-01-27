@@ -36,6 +36,8 @@ def _Build_Storage_Objects():
     # Switch to shared function that finds more mod ships.
     #game_files = File_System.Get_All_Indexed_Files('macros','ship_*')
     game_files = Get_Ship_Macro_Files()
+    #game_files = File_System.Get_Asset_Files_By_Class('macros', 'spacesuit', 'ship_xs', 'ship_s', 'ship_m', 'ship_l', 'ship_xl')
+
     return Create_Objects_From_Asset_Files(game_files, ship_item_macros)
 
 #def Display_Update_Speed(component, ship_type, purpose_primary, physics_drag_forward):
