@@ -16,7 +16,6 @@ from Framework import Transform_Wrapper, Load_File, File_System, Plugin_Log
 from ..Support import Standardize_Match_Rules
 from ..Support import XML_Multiply_Int_Attribute
 from ..Support import XML_Multiply_Float_Attribute
-#from ...Analyses.Shared import Get_Ship_Macro_Files
 from ...Classes import *
 from .Shared import *
 
